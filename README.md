@@ -3,6 +3,22 @@
 **Description:**  
 A web app to browse movies, view details, and check actors & directors.
 
+
+## Folder Structure 
+Movie-App/
+├── env/                  # Python virtual environment
+├── frontend/             # React frontend
+├── movie-app-backend/    # Django backend
+│   ├── movie_project/
+│   ├── movies/
+│   ├── db.sqlite3
+│   ├── manage.py
+│   ├── requirements.txt
+│   ├── Dockerfile
+│   └── docker-compose.yml
+└── .gitignore
+
+
 ## Setup
 
 ```bash
